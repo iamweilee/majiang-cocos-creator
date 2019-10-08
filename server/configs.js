@@ -1,17 +1,17 @@
-﻿var HALL_IP = "192.168.31.22";
+﻿var HALL_IP = "127.0.0.1";
 var HALL_CLIENT_PORT = 9001;
 var HALL_ROOM_PORT = 9002;
 
 var ACCOUNT_PRI_KEY = "^&*#$%()@";
 var ROOM_PRI_KEY = "~!@#$(*&^%$&";
 
-var LOCAL_IP = '192.168.31.22';
+var LOCAL_IP = '127.0.0.1';
 
 exports.mysql = function(){
 	return {
-		HOST:'192.168.31.22',
+		HOST:'127.0.0.1',
 		USER:'root',
-		PSWD:'qq1314',
+		PSWD:'Weiwei-1202',
 		DB:'qqq',
 		PORT:3306,
 	}
