@@ -1,11 +1,11 @@
-﻿var HALL_IP = "127.0.0.1";
+﻿var HALL_IP = "159.138.141.164";
 var HALL_CLIENT_PORT = 9001;
 var HALL_ROOM_PORT = 9002;
 
 var ACCOUNT_PRI_KEY = "^&*#$%()@";
 var ROOM_PRI_KEY = "~!@#$(*&^%$&";
 
-var LOCAL_IP = '127.0.0.1';
+var LOCAL_IP = '159.138.141.164';
 
 exports.mysql = function(){
 	return {
